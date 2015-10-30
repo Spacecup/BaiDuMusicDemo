@@ -29,6 +29,7 @@
 		55F7C2801BE3CD8E00BA7537 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C27F1BE3CD8E00BA7537 /* UIView+Frame.m */; settings = {ASSET_TAGS = (); }; };
 		55F7C2831BE3CDB300BA7537 /* UIImage+Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C2821BE3CDB300BA7537 /* UIImage+Shape.m */; settings = {ASSET_TAGS = (); }; };
 		55F7C28C1BE3D57600BA7537 /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C28B1BE3D57600BA7537 /* Music.m */; settings = {ASSET_TAGS = (); }; };
+		55F7C28F1BE3D65700BA7537 /* MusicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C28E1BE3D65700BA7537 /* MusicTool.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,8 @@
 		55F7C2821BE3CDB300BA7537 /* UIImage+Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Shape.m"; sourceTree = "<group>"; };
 		55F7C28A1BE3D57600BA7537 /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
 		55F7C28B1BE3D57600BA7537 /* Music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
+		55F7C28D1BE3D65700BA7537 /* MusicTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTool.h; sourceTree = "<group>"; };
+		55F7C28E1BE3D65700BA7537 /* MusicTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +257,8 @@
 		55F7C2521BE3C1C800BA7537 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				55F7C28D1BE3D65700BA7537 /* MusicTool.h */,
+				55F7C28E1BE3D65700BA7537 /* MusicTool.m */,
 				55F7C2531BE3C1C800BA7537 /* Category */,
 				55F7C2541BE3C1C800BA7537 /* Lib */,
 			);
@@ -451,6 +456,7 @@
 				55F7C2741BE3CB9100BA7537 /* MJExtensionConst.m in Sources */,
 				55F7C2801BE3CD8E00BA7537 /* UIView+Frame.m in Sources */,
 				55F7C2791BE3CB9100BA7537 /* NSObject+MJClass.m in Sources */,
+				55F7C28F1BE3D65700BA7537 /* MusicTool.m in Sources */,
 				55F7C27C1BE3CB9100BA7537 /* NSObject+MJProperty.m in Sources */,
 				55F7C27B1BE3CB9100BA7537 /* NSObject+MJKeyValue.m in Sources */,
 				55F7C2831BE3CDB300BA7537 /* UIImage+Shape.m in Sources */,
