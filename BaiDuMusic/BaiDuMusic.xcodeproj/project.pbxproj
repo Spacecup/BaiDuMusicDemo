@@ -28,6 +28,7 @@
 		55F7C27D1BE3CB9100BA7537 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C2721BE3CB9100BA7537 /* NSString+MJExtension.m */; settings = {ASSET_TAGS = (); }; };
 		55F7C2801BE3CD8E00BA7537 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C27F1BE3CD8E00BA7537 /* UIView+Frame.m */; settings = {ASSET_TAGS = (); }; };
 		55F7C2831BE3CDB300BA7537 /* UIImage+Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C2821BE3CDB300BA7537 /* UIImage+Shape.m */; settings = {ASSET_TAGS = (); }; };
+		55F7C28C1BE3D57600BA7537 /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C28B1BE3D57600BA7537 /* Music.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,8 @@
 		55F7C27F1BE3CD8E00BA7537 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		55F7C2811BE3CDB300BA7537 /* UIImage+Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Shape.h"; sourceTree = "<group>"; };
 		55F7C2821BE3CDB300BA7537 /* UIImage+Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Shape.m"; sourceTree = "<group>"; };
+		55F7C28A1BE3D57600BA7537 /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		55F7C28B1BE3D57600BA7537 /* Music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +235,8 @@
 		55F7C24D1BE3C1C800BA7537 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				55F7C28A1BE3D57600BA7537 /* Music.h */,
+				55F7C28B1BE3D57600BA7537 /* Music.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -450,6 +455,7 @@
 				55F7C27B1BE3CB9100BA7537 /* NSObject+MJKeyValue.m in Sources */,
 				55F7C2831BE3CDB300BA7537 /* UIImage+Shape.m in Sources */,
 				55F7C2761BE3CB9100BA7537 /* MJProperty.m in Sources */,
+				55F7C28C1BE3D57600BA7537 /* Music.m in Sources */,
 				55F7C2561BE3C1C800BA7537 /* AppDelegate.m in Sources */,
 				55F7C27A1BE3CB9100BA7537 /* NSObject+MJCoding.m in Sources */,
 				55F7C2751BE3CB9100BA7537 /* MJFoundation.m in Sources */,
