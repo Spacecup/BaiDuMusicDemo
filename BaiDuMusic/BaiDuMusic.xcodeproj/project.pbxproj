@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55F7C2161BE3C01A00BA7537 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C2151BE3C01A00BA7537 /* main.m */; };
-		55F7C2191BE3C01A00BA7537 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C2181BE3C01A00BA7537 /* AppDelegate.m */; };
-		55F7C21C1BE3C01A00BA7537 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C21B1BE3C01A00BA7537 /* ViewController.m */; };
 		55F7C21F1BE3C01A00BA7537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F7C21D1BE3C01A00BA7537 /* Main.storyboard */; };
 		55F7C2211BE3C01A00BA7537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F7C2201BE3C01A00BA7537 /* Assets.xcassets */; };
 		55F7C2241BE3C01A00BA7537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F7C2221BE3C01A00BA7537 /* LaunchScreen.storyboard */; };
 		55F7C22F1BE3C01A00BA7537 /* BaiDuMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C22E1BE3C01A00BA7537 /* BaiDuMusicTests.m */; };
 		55F7C23A1BE3C01A00BA7537 /* BaiDuMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C2391BE3C01A00BA7537 /* BaiDuMusicUITests.m */; };
+		55F7C2561BE3C1C800BA7537 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C2501BE3C1C800BA7537 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		55F7C2571BE3C1C800BA7537 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C2511BE3C1C800BA7537 /* main.m */; settings = {ASSET_TAGS = (); }; };
+		55F7C25A1BE3C2AD00BA7537 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C2591BE3C2AD00BA7537 /* MainTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +36,6 @@
 
 /* Begin PBXFileReference section */
 		55F7C2111BE3C01A00BA7537 /* BaiDuMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiDuMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		55F7C2151BE3C01A00BA7537 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		55F7C2171BE3C01A00BA7537 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		55F7C2181BE3C01A00BA7537 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		55F7C21A1BE3C01A00BA7537 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		55F7C21B1BE3C01A00BA7537 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		55F7C21E1BE3C01A00BA7537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55F7C2201BE3C01A00BA7537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55F7C2231BE3C01A00BA7537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +46,11 @@
 		55F7C2351BE3C01A00BA7537 /* BaiDuMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiDuMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F7C2391BE3C01A00BA7537 /* BaiDuMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiDuMusicUITests.m; sourceTree = "<group>"; };
 		55F7C23B1BE3C01A00BA7537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F7C24F1BE3C1C800BA7537 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55F7C2501BE3C1C800BA7537 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55F7C2511BE3C1C800BA7537 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55F7C2581BE3C2AD00BA7537 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		55F7C2591BE3C2AD00BA7537 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +101,12 @@
 		55F7C2131BE3C01A00BA7537 /* BaiDuMusic */ = {
 			isa = PBXGroup;
 			children = (
-				55F7C2171BE3C01A00BA7537 /* AppDelegate.h */,
-				55F7C2181BE3C01A00BA7537 /* AppDelegate.m */,
-				55F7C21A1BE3C01A00BA7537 /* ViewController.h */,
-				55F7C21B1BE3C01A00BA7537 /* ViewController.m */,
+				55F7C24B1BE3C1C800BA7537 /* Classes */,
 				55F7C21D1BE3C01A00BA7537 /* Main.storyboard */,
 				55F7C2201BE3C01A00BA7537 /* Assets.xcassets */,
 				55F7C2221BE3C01A00BA7537 /* LaunchScreen.storyboard */,
 				55F7C2251BE3C01A00BA7537 /* Info.plist */,
+				55F7C2471BE3C1C200BA7537 /* Resources */,
 				55F7C2141BE3C01A00BA7537 /* Supporting Files */,
 			);
 			path = BaiDuMusic;
@@ -117,7 +115,6 @@
 		55F7C2141BE3C01A00BA7537 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				55F7C2151BE3C01A00BA7537 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +135,105 @@
 				55F7C23B1BE3C01A00BA7537 /* Info.plist */,
 			);
 			path = BaiDuMusicUITests;
+			sourceTree = "<group>";
+		};
+		55F7C2471BE3C1C200BA7537 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55F7C2481BE3C1C200BA7537 /* Image */,
+				55F7C2491BE3C1C200BA7537 /* Lrc */,
+				55F7C24A1BE3C1C200BA7537 /* mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55F7C2481BE3C1C200BA7537 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		55F7C2491BE3C1C200BA7537 /* Lrc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lrc;
+			sourceTree = "<group>";
+		};
+		55F7C24A1BE3C1C200BA7537 /* mp3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mp3;
+			sourceTree = "<group>";
+		};
+		55F7C24B1BE3C1C800BA7537 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				55F7C24C1BE3C1C800BA7537 /* Controller */,
+				55F7C24D1BE3C1C800BA7537 /* Model */,
+				55F7C24E1BE3C1C800BA7537 /* Other */,
+				55F7C2521BE3C1C800BA7537 /* Tools */,
+				55F7C2551BE3C1C800BA7537 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		55F7C24C1BE3C1C800BA7537 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55F7C2581BE3C2AD00BA7537 /* MainTableViewController.h */,
+				55F7C2591BE3C2AD00BA7537 /* MainTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55F7C24D1BE3C1C800BA7537 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55F7C24E1BE3C1C800BA7537 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				55F7C24F1BE3C1C800BA7537 /* AppDelegate.h */,
+				55F7C2501BE3C1C800BA7537 /* AppDelegate.m */,
+				55F7C2511BE3C1C800BA7537 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		55F7C2521BE3C1C800BA7537 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				55F7C2531BE3C1C800BA7537 /* Category */,
+				55F7C2541BE3C1C800BA7537 /* Lib */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		55F7C2531BE3C1C800BA7537 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		55F7C2541BE3C1C800BA7537 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		55F7C2551BE3C1C800BA7537 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +366,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55F7C21C1BE3C01A00BA7537 /* ViewController.m in Sources */,
-				55F7C2191BE3C01A00BA7537 /* AppDelegate.m in Sources */,
-				55F7C2161BE3C01A00BA7537 /* main.m in Sources */,
+				55F7C2571BE3C1C800BA7537 /* main.m in Sources */,
+				55F7C2561BE3C1C800BA7537 /* AppDelegate.m in Sources */,
+				55F7C25A1BE3C2AD00BA7537 /* MainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +592,7 @@
 				55F7C2401BE3C01A00BA7537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55F7C2411BE3C01A00BA7537 /* Build configuration list for PBXNativeTarget "BaiDuMusicTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +601,7 @@
 				55F7C2431BE3C01A00BA7537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55F7C2441BE3C01A00BA7537 /* Build configuration list for PBXNativeTarget "BaiDuMusicUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +610,7 @@
 				55F7C2461BE3C01A00BA7537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
