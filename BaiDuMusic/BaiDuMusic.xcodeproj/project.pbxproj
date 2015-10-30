@@ -26,6 +26,8 @@
 		55F7C27B1BE3CB9100BA7537 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C26E1BE3CB9100BA7537 /* NSObject+MJKeyValue.m */; settings = {ASSET_TAGS = (); }; };
 		55F7C27C1BE3CB9100BA7537 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C2701BE3CB9100BA7537 /* NSObject+MJProperty.m */; settings = {ASSET_TAGS = (); }; };
 		55F7C27D1BE3CB9100BA7537 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C2721BE3CB9100BA7537 /* NSString+MJExtension.m */; settings = {ASSET_TAGS = (); }; };
+		55F7C2801BE3CD8E00BA7537 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C27F1BE3CD8E00BA7537 /* UIView+Frame.m */; settings = {ASSET_TAGS = (); }; };
+		55F7C2831BE3CDB300BA7537 /* UIImage+Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C2821BE3CDB300BA7537 /* UIImage+Shape.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,10 @@
 		55F7C2701BE3CB9100BA7537 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		55F7C2711BE3CB9100BA7537 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		55F7C2721BE3CB9100BA7537 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		55F7C27E1BE3CD8E00BA7537 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		55F7C27F1BE3CD8E00BA7537 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		55F7C2811BE3CDB300BA7537 /* UIImage+Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Shape.h"; sourceTree = "<group>"; };
+		55F7C2821BE3CDB300BA7537 /* UIImage+Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Shape.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +258,10 @@
 		55F7C2531BE3C1C800BA7537 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				55F7C27E1BE3CD8E00BA7537 /* UIView+Frame.h */,
+				55F7C27F1BE3CD8E00BA7537 /* UIView+Frame.m */,
+				55F7C2811BE3CDB300BA7537 /* UIImage+Shape.h */,
+				55F7C2821BE3CDB300BA7537 /* UIImage+Shape.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -434,9 +444,11 @@
 				55F7C2781BE3CB9100BA7537 /* MJPropertyType.m in Sources */,
 				55F7C2571BE3C1C800BA7537 /* main.m in Sources */,
 				55F7C2741BE3CB9100BA7537 /* MJExtensionConst.m in Sources */,
+				55F7C2801BE3CD8E00BA7537 /* UIView+Frame.m in Sources */,
 				55F7C2791BE3CB9100BA7537 /* NSObject+MJClass.m in Sources */,
 				55F7C27C1BE3CB9100BA7537 /* NSObject+MJProperty.m in Sources */,
 				55F7C27B1BE3CB9100BA7537 /* NSObject+MJKeyValue.m in Sources */,
+				55F7C2831BE3CDB300BA7537 /* UIImage+Shape.m in Sources */,
 				55F7C2761BE3CB9100BA7537 /* MJProperty.m in Sources */,
 				55F7C2561BE3C1C800BA7537 /* AppDelegate.m in Sources */,
 				55F7C27A1BE3CB9100BA7537 /* NSObject+MJCoding.m in Sources */,
