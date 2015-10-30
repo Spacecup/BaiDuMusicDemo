@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55F7C2161BE3C01A00BA7537 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C2151BE3C01A00BA7537 /* main.m */; };
+		55F7C2191BE3C01A00BA7537 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C2181BE3C01A00BA7537 /* AppDelegate.m */; };
+		55F7C21C1BE3C01A00BA7537 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C21B1BE3C01A00BA7537 /* ViewController.m */; };
+		55F7C21F1BE3C01A00BA7537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F7C21D1BE3C01A00BA7537 /* Main.storyboard */; };
+		55F7C2211BE3C01A00BA7537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F7C2201BE3C01A00BA7537 /* Assets.xcassets */; };
+		55F7C2241BE3C01A00BA7537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F7C2221BE3C01A00BA7537 /* LaunchScreen.storyboard */; };
+		55F7C22F1BE3C01A00BA7537 /* BaiDuMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C22E1BE3C01A00BA7537 /* BaiDuMusicTests.m */; };
+		55F7C23A1BE3C01A00BA7537 /* BaiDuMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C2391BE3C01A00BA7537 /* BaiDuMusicUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55F7C22B1BE3C01A00BA7537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55F7C2091BE3C01A00BA7537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55F7C2101BE3C01A00BA7537;
+			remoteInfo = BaiDuMusic;
+		};
+		55F7C2361BE3C01A00BA7537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55F7C2091BE3C01A00BA7537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55F7C2101BE3C01A00BA7537;
+			remoteInfo = BaiDuMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55F7C2111BE3C01A00BA7537 /* BaiDuMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiDuMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F7C2151BE3C01A00BA7537 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55F7C2171BE3C01A00BA7537 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55F7C2181BE3C01A00BA7537 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55F7C21A1BE3C01A00BA7537 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55F7C21B1BE3C01A00BA7537 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55F7C21E1BE3C01A00BA7537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55F7C2201BE3C01A00BA7537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55F7C2231BE3C01A00BA7537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55F7C2251BE3C01A00BA7537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F7C22A1BE3C01A00BA7537 /* BaiDuMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiDuMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F7C22E1BE3C01A00BA7537 /* BaiDuMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiDuMusicTests.m; sourceTree = "<group>"; };
+		55F7C2301BE3C01A00BA7537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F7C2351BE3C01A00BA7537 /* BaiDuMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiDuMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F7C2391BE3C01A00BA7537 /* BaiDuMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiDuMusicUITests.m; sourceTree = "<group>"; };
+		55F7C23B1BE3C01A00BA7537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55F7C20E1BE3C01A00BA7537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F7C2271BE3C01A00BA7537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F7C2321BE3C01A00BA7537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55F7C2081BE3C01A00BA7537 = {
+			isa = PBXGroup;
+			children = (
+				55F7C2131BE3C01A00BA7537 /* BaiDuMusic */,
+				55F7C22D1BE3C01A00BA7537 /* BaiDuMusicTests */,
+				55F7C2381BE3C01A00BA7537 /* BaiDuMusicUITests */,
+				55F7C2121BE3C01A00BA7537 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55F7C2121BE3C01A00BA7537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55F7C2111BE3C01A00BA7537 /* BaiDuMusic.app */,
+				55F7C22A1BE3C01A00BA7537 /* BaiDuMusicTests.xctest */,
+				55F7C2351BE3C01A00BA7537 /* BaiDuMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55F7C2131BE3C01A00BA7537 /* BaiDuMusic */ = {
+			isa = PBXGroup;
+			children = (
+				55F7C2171BE3C01A00BA7537 /* AppDelegate.h */,
+				55F7C2181BE3C01A00BA7537 /* AppDelegate.m */,
+				55F7C21A1BE3C01A00BA7537 /* ViewController.h */,
+				55F7C21B1BE3C01A00BA7537 /* ViewController.m */,
+				55F7C21D1BE3C01A00BA7537 /* Main.storyboard */,
+				55F7C2201BE3C01A00BA7537 /* Assets.xcassets */,
+				55F7C2221BE3C01A00BA7537 /* LaunchScreen.storyboard */,
+				55F7C2251BE3C01A00BA7537 /* Info.plist */,
+				55F7C2141BE3C01A00BA7537 /* Supporting Files */,
+			);
+			path = BaiDuMusic;
+			sourceTree = "<group>";
+		};
+		55F7C2141BE3C01A00BA7537 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55F7C2151BE3C01A00BA7537 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55F7C22D1BE3C01A00BA7537 /* BaiDuMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				55F7C22E1BE3C01A00BA7537 /* BaiDuMusicTests.m */,
+				55F7C2301BE3C01A00BA7537 /* Info.plist */,
+			);
+			path = BaiDuMusicTests;
+			sourceTree = "<group>";
+		};
+		55F7C2381BE3C01A00BA7537 /* BaiDuMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55F7C2391BE3C01A00BA7537 /* BaiDuMusicUITests.m */,
+				55F7C23B1BE3C01A00BA7537 /* Info.plist */,
+			);
+			path = BaiDuMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55F7C2101BE3C01A00BA7537 /* BaiDuMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F7C23E1BE3C01A00BA7537 /* Build configuration list for PBXNativeTarget "BaiDuMusic" */;
+			buildPhases = (
+				55F7C20D1BE3C01A00BA7537 /* Sources */,
+				55F7C20E1BE3C01A00BA7537 /* Frameworks */,
+				55F7C20F1BE3C01A00BA7537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiDuMusic;
+			productName = BaiDuMusic;
+			productReference = 55F7C2111BE3C01A00BA7537 /* BaiDuMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55F7C2291BE3C01A00BA7537 /* BaiDuMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F7C2411BE3C01A00BA7537 /* Build configuration list for PBXNativeTarget "BaiDuMusicTests" */;
+			buildPhases = (
+				55F7C2261BE3C01A00BA7537 /* Sources */,
+				55F7C2271BE3C01A00BA7537 /* Frameworks */,
+				55F7C2281BE3C01A00BA7537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55F7C22C1BE3C01A00BA7537 /* PBXTargetDependency */,
+			);
+			name = BaiDuMusicTests;
+			productName = BaiDuMusicTests;
+			productReference = 55F7C22A1BE3C01A00BA7537 /* BaiDuMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55F7C2341BE3C01A00BA7537 /* BaiDuMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F7C2441BE3C01A00BA7537 /* Build configuration list for PBXNativeTarget "BaiDuMusicUITests" */;
+			buildPhases = (
+				55F7C2311BE3C01A00BA7537 /* Sources */,
+				55F7C2321BE3C01A00BA7537 /* Frameworks */,
+				55F7C2331BE3C01A00BA7537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55F7C2371BE3C01A00BA7537 /* PBXTargetDependency */,
+			);
+			name = BaiDuMusicUITests;
+			productName = BaiDuMusicUITests;
+			productReference = 55F7C2351BE3C01A00BA7537 /* BaiDuMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55F7C2091BE3C01A00BA7537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "余丽丽";
+				TargetAttributes = {
+					55F7C2101BE3C01A00BA7537 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					55F7C2291BE3C01A00BA7537 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 55F7C2101BE3C01A00BA7537;
+					};
+					55F7C2341BE3C01A00BA7537 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 55F7C2101BE3C01A00BA7537;
+					};
+				};
+			};
+			buildConfigurationList = 55F7C20C1BE3C01A00BA7537 /* Build configuration list for PBXProject "BaiDuMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55F7C2081BE3C01A00BA7537;
+			productRefGroup = 55F7C2121BE3C01A00BA7537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F7C2101BE3C01A00BA7537 /* BaiDuMusic */,
+				55F7C2291BE3C01A00BA7537 /* BaiDuMusicTests */,
+				55F7C2341BE3C01A00BA7537 /* BaiDuMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55F7C20F1BE3C01A00BA7537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F7C2241BE3C01A00BA7537 /* LaunchScreen.storyboard in Resources */,
+				55F7C2211BE3C01A00BA7537 /* Assets.xcassets in Resources */,
+				55F7C21F1BE3C01A00BA7537 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F7C2281BE3C01A00BA7537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F7C2331BE3C01A00BA7537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55F7C20D1BE3C01A00BA7537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F7C21C1BE3C01A00BA7537 /* ViewController.m in Sources */,
+				55F7C2191BE3C01A00BA7537 /* AppDelegate.m in Sources */,
+				55F7C2161BE3C01A00BA7537 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F7C2261BE3C01A00BA7537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F7C22F1BE3C01A00BA7537 /* BaiDuMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F7C2311BE3C01A00BA7537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F7C23A1BE3C01A00BA7537 /* BaiDuMusicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55F7C22C1BE3C01A00BA7537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55F7C2101BE3C01A00BA7537 /* BaiDuMusic */;
+			targetProxy = 55F7C22B1BE3C01A00BA7537 /* PBXContainerItemProxy */;
+		};
+		55F7C2371BE3C01A00BA7537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55F7C2101BE3C01A00BA7537 /* BaiDuMusic */;
+			targetProxy = 55F7C2361BE3C01A00BA7537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55F7C21D1BE3C01A00BA7537 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F7C21E1BE3C01A00BA7537 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55F7C2221BE3C01A00BA7537 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F7C2231BE3C01A00BA7537 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55F7C23C1BE3C01A00BA7537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55F7C23D1BE3C01A00BA7537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55F7C23F1BE3C01A00BA7537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BaiDuMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yll.BaiDuMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55F7C2401BE3C01A00BA7537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BaiDuMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yll.BaiDuMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55F7C2421BE3C01A00BA7537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BaiDuMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yll.BaiDuMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiDuMusic.app/BaiDuMusic";
+			};
+			name = Debug;
+		};
+		55F7C2431BE3C01A00BA7537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BaiDuMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yll.BaiDuMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiDuMusic.app/BaiDuMusic";
+			};
+			name = Release;
+		};
+		55F7C2451BE3C01A00BA7537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BaiDuMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yll.BaiDuMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BaiDuMusic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		55F7C2461BE3C01A00BA7537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BaiDuMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yll.BaiDuMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BaiDuMusic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55F7C20C1BE3C01A00BA7537 /* Build configuration list for PBXProject "BaiDuMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F7C23C1BE3C01A00BA7537 /* Debug */,
+				55F7C23D1BE3C01A00BA7537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F7C23E1BE3C01A00BA7537 /* Build configuration list for PBXNativeTarget "BaiDuMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F7C23F1BE3C01A00BA7537 /* Debug */,
+				55F7C2401BE3C01A00BA7537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55F7C2411BE3C01A00BA7537 /* Build configuration list for PBXNativeTarget "BaiDuMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F7C2421BE3C01A00BA7537 /* Debug */,
+				55F7C2431BE3C01A00BA7537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55F7C2441BE3C01A00BA7537 /* Build configuration list for PBXNativeTarget "BaiDuMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F7C2451BE3C01A00BA7537 /* Debug */,
+				55F7C2461BE3C01A00BA7537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55F7C2091BE3C01A00BA7537 /* Project object */;
+}
