@@ -48,6 +48,8 @@
 		558FA9571BE443B9007293AD /* 120125029.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 558FA94D1BE443B9007293AD /* 120125029.mp3 */; settings = {ASSET_TAGS = (); }; };
 		558FA9581BE443B9007293AD /* 1201111234.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 558FA94E1BE443B9007293AD /* 1201111234.mp3 */; settings = {ASSET_TAGS = (); }; };
 		558FA95A1BE443C7007293AD /* Musics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558FA9591BE443C7007293AD /* Musics.plist */; settings = {ASSET_TAGS = (); }; };
+		55C1CA831BE5155A00FF3CBF /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C1CA821BE5155A00FF3CBF /* PlayerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		55C1CA871BE51FF300FF3CBF /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C1CA861BE51FF300FF3CBF /* PlayerViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		55F7C21F1BE3C01A00BA7537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F7C21D1BE3C01A00BA7537 /* Main.storyboard */; };
 		55F7C2211BE3C01A00BA7537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F7C2201BE3C01A00BA7537 /* Assets.xcassets */; };
 		55F7C2241BE3C01A00BA7537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F7C2221BE3C01A00BA7537 /* LaunchScreen.storyboard */; };
@@ -132,6 +134,9 @@
 		558FA94D1BE443B9007293AD /* 120125029.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 120125029.mp3; sourceTree = "<group>"; };
 		558FA94E1BE443B9007293AD /* 1201111234.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1201111234.mp3; sourceTree = "<group>"; };
 		558FA9591BE443C7007293AD /* Musics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Musics.plist; sourceTree = "<group>"; };
+		55C1CA811BE5155A00FF3CBF /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		55C1CA821BE5155A00FF3CBF /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		55C1CA861BE51FF300FF3CBF /* PlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
 		55F7C2111BE3C01A00BA7537 /* BaiDuMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiDuMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F7C21E1BE3C01A00BA7537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55F7C2201BE3C01A00BA7537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -354,6 +359,9 @@
 			children = (
 				55F7C2581BE3C2AD00BA7537 /* MainTableViewController.h */,
 				55F7C2591BE3C2AD00BA7537 /* MainTableViewController.m */,
+				55C1CA811BE5155A00FF3CBF /* PlayerViewController.h */,
+				55C1CA821BE5155A00FF3CBF /* PlayerViewController.m */,
+				55C1CA861BE51FF300FF3CBF /* PlayerViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -558,6 +566,7 @@
 				558FA9231BE44397007293AD /* jay_icon@2x.png in Resources */,
 				558FA9511BE443B9007293AD /* 309769.mp3 in Resources */,
 				558FA91F1BE44397007293AD /* dzq_icon@2x.jpg in Resources */,
+				55C1CA871BE51FF300FF3CBF /* PlayerViewController.xib in Resources */,
 				558FA94F1BE443B9007293AD /* 235319.mp3 in Resources */,
 				558FA92E1BE44397007293AD /* wf@2x.jpg in Resources */,
 				558FA9421BE443AC007293AD /* 14945107.lrc in Resources */,
@@ -625,6 +634,7 @@
 				55F7C27B1BE3CB9100BA7537 /* NSObject+MJKeyValue.m in Sources */,
 				55F7C2831BE3CDB300BA7537 /* UIImage+Shape.m in Sources */,
 				55F7C2761BE3CB9100BA7537 /* MJProperty.m in Sources */,
+				55C1CA831BE5155A00FF3CBF /* PlayerViewController.m in Sources */,
 				55F7C28C1BE3D57600BA7537 /* Music.m in Sources */,
 				55F7C2561BE3C1C800BA7537 /* AppDelegate.m in Sources */,
 				55F7C27A1BE3CB9100BA7537 /* NSObject+MJCoding.m in Sources */,
