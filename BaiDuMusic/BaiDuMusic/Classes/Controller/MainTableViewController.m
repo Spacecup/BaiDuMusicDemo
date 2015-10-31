@@ -7,7 +7,9 @@
 //
 
 #import "MainTableViewController.h"
-
+#import "MusicTool.h"
+#import "Music.h"
+#import "UIImage+Shape.h"
 @interface MainTableViewController ()
 
 @end
@@ -32,24 +34,27 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
+
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 20;
+    return [MusicTool shareMusics].count;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-       NSString * ID = @"cell";
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    
+    NSString * ID = @"cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ID];
     }
-    cell.textLabel.text = [NSString stringWithFormat:@"-->> 第%02ld个cell",indexPath.row];
-    // Configure the cell...
+    Music *music = [MusicTool shareMusics][indexPath.row];
+    cell.imageView.image = [UIImage circelImageWithName:music.singerIcon borderWidth:3.0 borderColor:[UIColor purpleColor]];
+    cell.textLabel.text = music.name;
+    cell.detailTextLabel.text = music.singer;
+    
     return cell;
 }
 
